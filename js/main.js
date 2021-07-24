@@ -119,6 +119,9 @@ $('.animated').waypoint({
     else if (direction === 'up') {
       $(this.element).removeClass('fadeInUp');
       $(this.element).addClass('fadeOutUp');
+      
+      // waypointを削除することで、この要素に対しては
+      // これ以降handlerが呼ばれなくなる
     }
   },
   
