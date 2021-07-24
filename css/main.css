@@ -105,6 +105,11 @@ body {
   transform: scale(1.1);
 }
 
+.d-inline-img {
+  width: 100%;
+  height: auto;
+}
+
 .top {
   /* 子要素でposition:absoluteを使うため必要 */
   position: relative;
