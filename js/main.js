@@ -291,9 +291,6 @@ $.getJSON(caturl, (data) => {
     $div.append(
       $('<div>', {
         class: 'image-gallery__item',
-        'rel': "noopener noreferrer",
-        'data-toggle': 'tooltip',
-        'data-placement': 'bottom',
       }).append(
         $('<a>', {
           href: getFlickrPageURL(photo),
@@ -315,7 +312,7 @@ $.getJSON(caturl, (data) => {
     );
   }
   // $divを#mainに追加する
-  $div.appendTo('.cat_pic');
+  $div.appendTo('.image-gallery');
 
   // BootstrapのTooltipを適用
   $('[data-toggle="tooltip"]').tooltip();
@@ -367,7 +364,7 @@ $.getJSON(dogurl, (data) => {
     );
   }
   // $divを#mainに追加する
-  $div.appendTo('.dog_pic');
+  $div.appendTo('.image-gallery');
 
   // BootstrapのTooltipを適用
   $('[data-toggle="tooltip"]').tooltip();
