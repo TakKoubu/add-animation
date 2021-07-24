@@ -303,8 +303,7 @@ $.getJSON(caturl, (data) => {
         }).append(
           $('<img>', {
             src: getFlickrImageURL(photo, 'q'),
-            width: 150,
-            height: 150,
+            class: 'd-inline-img',
             alt: photoText,
           }),
         ),
@@ -355,8 +354,7 @@ $.getJSON(dogurl, (data) => {
         }).append(
           $('<img>', {
             src: getFlickrImageURL(photo, 'q'),
-            width: 150,
-            height: 150,
+            class: 'd-inline-img',
             alt: photoText,
           }),
         ),
