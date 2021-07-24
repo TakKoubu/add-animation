@@ -2,7 +2,7 @@
 
 // モバイルブラウザかどうか判定
 const isMobile = !!new MobileDetect(window.navigator.userAgent).mobile();
-
+const apiKey = "78a99c805792251c05fe432a05591e2f";
 /**
  * ----------------------
  * 指定された名前のタブを表示
