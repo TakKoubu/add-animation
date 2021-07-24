@@ -312,7 +312,7 @@ $.getJSON(caturl, (data) => {
     );
   }
   // $divを#mainに追加する
-  $div.appendTo('.image-gallery');
+  $div.appendTo('.cat_pic');
 
   // BootstrapのTooltipを適用
   $('[data-toggle="tooltip"]').tooltip();
@@ -364,7 +364,7 @@ $.getJSON(dogurl, (data) => {
     );
   }
   // $divを#mainに追加する
-  $div.appendTo('.image-gallery');
+  $div.appendTo('.dog_pic');
 
   // BootstrapのTooltipを適用
   $('[data-toggle="tooltip"]').tooltip();
